@@ -3,6 +3,9 @@ import json
 from datetime import date
 import pandas as pd
 import streamlit as st
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from core import db, schwab_client as sc, exit_engine, vehicle_selector as vs
 
