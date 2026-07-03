@@ -1,0 +1,18 @@
+# Environment / secrets
+.env
+
+# Local databases
+*.db
+
+# Runtime data (token cache, etc.)
+data/
+
+# Schwab OAuth token cache
+schwab_token.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
